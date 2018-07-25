@@ -1,0 +1,27 @@
+{
+  "name": "01.webPackNormalUse",
+  "version": "1.0.0",
+  "description": "1.x-3.x版本的命令类似的\r     4.x之后 很多无法使用了\r     是否认识1.x-3.x的命令可以看出你是不是 资深coder\r         loader\r         rule",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev":"webpack-dev-server --open --config webpack.config.js --hot"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^1.0.0",
+    "file-loader": "^1.1.11",
+    "less": "^3.8.0",
+    "less-loader": "^4.1.0",
+    "style-loader": "^0.21.0",
+    "webpack": "^4.16.2",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.5"
+  },
+  "dependencies": {
+    "jQuery": "^1.7.4",
+    "jquery": "^3.3.1"
+  }
+}
